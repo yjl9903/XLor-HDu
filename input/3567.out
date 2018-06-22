@@ -1,0 +1,400 @@
+Case 1: 21
+ddruulldrdlurrdllurul
+Case 2: 25
+lluurrdldluurddluurrdlldr
+Case 3: 21
+urdlluurdldrurdllurur
+Case 4: 22
+dlurdrululddruruldrdlu
+Case 5: 20
+ruldrurdluurdlulddru
+Case 6: 21
+rdrululddruuldrurdlul
+Case 7: 26
+drulurrdlldrrulurddluldrru
+Case 8: 26
+luldrurullddrurdluldrrulul
+Case 9: 17
+drrullurrdllurrdl
+Case 10: 24
+lluruldrdlurrullddrurdlu
+Case 11: 19
+urulldrdlurrdluuldr
+Case 12: 22
+ldrurdldluurrdldluruld
+Case 13: 19
+ddluurddruulldrruld
+Case 14: 24
+uulddrullurddlurdruulldr
+Case 15: 25
+ddruuldrurdlulddrruldluru
+Case 16: 18
+lurrdluurddlurulld
+Case 17: 21
+rdluurddluulddruulddr
+Case 18: 17
+rruulldrdluurddlu
+Case 19: 26
+ddlluurdrdluruldrdlulurrdd
+Case 20: 24
+rdlurrdlluurdruldlurddlu
+Case 21: 25
+luldrdlurruldrdluurdluldr
+Case 22: 26
+ruldrruldluurrdlldrulurdlu
+Case 23: 18
+rdlurrdlluurdruldr
+Case 24: 24
+ddrrullurrdllurddruuldlu
+Case 25: 25
+ururddluulddruruldldrrull
+Case 26: 26
+llurruldrdlluurddlurruldrd
+Case 27: 26
+dluruldlurdldrurdluulddrur
+Case 28: 23
+lurrulldrrdllurrulldrdl
+Case 29: 17
+uulldrdluurdrdllu
+Case 30: 21
+drrulldrrulurdluldrur
+Case 31: 28
+dlldrurdluurdllurdldrurdluur
+Case 32: 24
+rddluulddruuldrrdllurrul
+Case 33: 25
+rdlurruldrdlluurddlurrdll
+Case 34: 21
+lldruuldrdlururddluur
+Case 35: 23
+lurdruulldrruldrdluruld
+Case 36: 22
+rulurddlurullddruuldru
+Case 37: 23
+uldruuldldrulurddlurrdl
+Case 38: 20
+ldrdluurddluurrdluld
+Case 39: 17
+rdrulurdlulddruld
+Case 40: 22
+druuldlurdrulddluurddr
+Case 41: 19
+ldlururddlluurdrull
+Case 42: 20
+ddruuldrurddlluurddl
+Case 43: 21
+ldrdruullddrurdluldrr
+Case 44: 19
+lddruulldrdlurrdluu
+Case 45: 26
+urdldrurullddrurdluldrruld
+Case 46: 23
+lurdrulurdldrululddruld
+Case 47: 22
+uldrurulldrdlurruldrdl
+Case 48: 23
+ldruruldlurdldrurullddr
+Case 49: 23
+uldrrulldrrululdrurdlld
+Case 50: 19
+ldruulddruurdldruul
+Case 51: 21
+urdrulldrrdlurullddrr
+Case 52: 22
+uurddlulurdldrurdlluru
+Case 53: 20
+drurdldluurrdlldruur
+Case 54: 23
+uurrdldlurulddruldrrull
+Case 55: 24
+lldrdlurrdluurdlulddrurd
+Case 56: 20
+ulurrdldluurrdllurrd
+Case 57: 20
+urrddluuldrrulldrdru
+Case 58: 14
+lulurddluurdrd
+Case 59: 20
+drruulddruuldldrruld
+Case 60: 28
+dldruuldlurddruuldldrurdlulu
+Case 61: 24
+ldrrdluurddluldruuldrurd
+Case 62: 25
+urdldrruldlurdrulurdluldr
+Case 63: 21
+uldruurddlluruldrdlur
+Case 64: 22
+rdrululddruulddruruldd
+Case 65: 19
+dlurddlurrulddruuld
+Case 66: 23
+uurddluruldrruldrdlurul
+Case 67: 19
+ldrrdluurdllurrdldr
+Case 68: 20
+ldldrruulddluurrdldl
+Case 69: 19
+dluldrdluurrdlulddr
+Case 70: 21
+luurrdldluurdrulddrul
+Case 71: 17
+ldrurdlulddrurdll
+Case 72: 20
+ddruldluurrddluuldrd
+Case 73: 26
+dlurrddlurdllurrulldrurddl
+Case 74: 27
+drrululddrruullddrruullddru
+Case 75: 19
+dlluurddluurrdldruu
+Case 76: 23
+rruldruuldrdlluurddruld
+Case 77: 22
+rruldlurrddlulurdruldd
+Case 78: 22
+rrululddrurdluuldrurdl
+Case 79: 25
+lddrrulurdldrullurdldruru
+Case 80: 21
+rdrulldrruuldlurdldru
+Case 81: 24
+ululdrdlururdluldrurdldl
+Case 82: 19
+drurdldluurrdldrull
+Case 83: 22
+lulurdrulddruldluurddr
+Case 84: 19
+lldrdrulurddluldruu
+Case 85: 20
+rdlurulldrdluruldrrd
+Case 86: 19
+rdluruldrurddllurur
+Case 87: 22
+uurddlluurddrulldrruld
+Case 88: 23
+urdrdllurrulldrrdllurrd
+Case 89: 20
+dldrullurdldrulurdru
+Case 90: 22
+ldrdluurdllurdldruurdd
+Case 91: 20
+dlluurddlurrulldrrdl
+Case 92: 20
+drrdlluurrdldluurdrd
+Case 93: 21
+ldldrurdlulurrdllurdl
+Case 94: 23
+dluldruuldrrdllururdldr
+Case 95: 26
+dluruldrdlurruldrdlurulldd
+Case 96: 18
+ddluurdldruulddrru
+Case 97: 27
+ddluruldrrulddruulddluurdlu
+Case 98: 23
+rurdluulddruulddruruldr
+Case 99: 24
+drruldlururddllurrulddru
+Case 100: 23
+ddrrulurdluldrdluurddlu
+Case 101: 22
+rdruldrdluulddruurddll
+Case 102: 20
+lururdluldrdluruldrd
+Case 103: 21
+ldruruldlurdldruruldr
+Case 104: 25
+ddruldlurdrulurdldluurdld
+Case 105: 15
+luurddruuldldrr
+Case 106: 17
+lurdluurdluldrdru
+Case 107: 21
+uldrrdlluurdruldlurdd
+Case 108: 20
+rdldlurulddrulurddlu
+Case 109: 19
+rrullurrdlldrulurdr
+Case 110: 24
+rddlurrdlluurdldrurdlluu
+Case 111: 19
+rdruuldrdluldrrullu
+Case 112: 22
+ururdlulddruldrruulldr
+Case 113: 21
+rrululdrurddlluurddru
+Case 114: 23
+dldlurdruuldrdlurulldrr
+Case 115: 22
+uldrdluurrdldrullurdlu
+Case 116: 19
+rullddrurdluldrruul
+Case 117: 20
+rruldruuldrdllurdruu
+Case 118: 24
+ruldruulldrrulddruulldrd
+Case 119: 22
+dlluurrdlldruulddrrull
+Case 120: 24
+rrulurddluuldrdlurrdluul
+Case 121: 24
+drulurdruldlurrddluruldr
+Case 122: 22
+urddrulldrrullurrdldru
+Case 123: 24
+lurrdldluruldrurddlluurr
+Case 124: 22
+rdldrulurdldrurdluurdl
+Case 125: 21
+lddlurulddrurdlulurrd
+Case 126: 22
+ldrdrulurdldrullurdldr
+Case 127: 21
+drdluurdluldrdluruldr
+Case 128: 27
+dldrullurdldruuldrurddluuld
+Case 129: 23
+rdldrulurddlurrulldrdru
+Case 130: 24
+luurdllurddlurdruulldrdr
+Case 131: 27
+llurulddrruldlururdldruulld
+Case 132: 24
+ddluurdruldlurddruulldru
+Case 133: 24
+ldrrulldruulddrruldlurur
+Case 134: 18
+lluurddruullddruru
+Case 135: 12
+ruullddrurdl
+Case 136: 22
+ldlurdldrruuldldrruldr
+Case 137: 22
+urdldluurddruldlurrull
+Case 138: 24
+ddllururddluurddllururdd
+Case 139: 22
+rullurrddlluurdrdlluur
+Case 140: 20
+luurdrdluldruuldrurd
+Case 141: 21
+dldruulddrrulurdlldrr
+Case 142: 17
+uuldrruldrdllurul
+Case 143: 20
+druruldldrruulldrdru
+Case 144: 19
+ullurrdluldrdlururd
+Case 145: 18
+drruulddluurrdldru
+Case 146: 16
+ldrruldluurrdlul
+Case 147: 24
+dlurddlurrullddrrulldrul
+Case 148: 26
+dlurrulldrrulldrdruulddlur
+Case 149: 22
+ldrdllurrdlluurrddluur
+Case 150: 14
+druurdllurdldr
+Case 151: 20
+lddruuldldrulurrdllu
+Case 152: 23
+ruuldldrrullurrdluldrur
+Case 153: 26
+rulurrdlldruulddrrulurdllu
+Case 154: 20
+druulldrdrulurddlurd
+Case 155: 27
+ruldrrullddrurdluldrrulurdd
+Case 156: 18
+dluldrurdllurrulld
+Case 157: 21
+dldrruullddrurdllurru
+Case 158: 22
+luurddlluurddluurddluu
+Case 159: 24
+rulddruurddlulurrddluurd
+Case 160: 18
+urddlurdruuldldrru
+Case 161: 20
+ddluldrurdllurulddru
+Case 162: 25
+drurddlurulldrurdlulddrru
+Case 163: 23
+druurdlulddruurdlldrrul
+Case 164: 20
+urddlurrulddrulurdll
+Case 165: 20
+drdrulurdlldrrulurdl
+Case 166: 21
+ulurdrdllurrullddrurd
+Case 167: 20
+drrulddluurddruulldr
+Case 168: 20
+rdrulddrulldruuldrru
+Case 169: 19
+lurddruuldlurdrulld
+Case 170: 27
+dlurulldrrdllurdrulurdldruu
+Case 171: 18
+ddluulddrurulldrul
+Case 172: 19
+ulldrurddlluurdrull
+Case 173: 24
+lulurrddllururdldluurddr
+Case 174: 21
+ddruurddluulddrurulld
+Case 175: 26
+rruuldrdluulddruuldrrulddr
+Case 176: 22
+uldluurrdllurddlururdd
+Case 177: 24
+lddruruldrdluulddrurulld
+Case 178: 26
+rrulurddllurdluurdrdlurull
+Case 179: 25
+rrdlldruuldrrdllurruldrdl
+Case 180: 20
+uldrurdluurdlulddrur
+Case 181: 21
+ldlurrddluurdllurrdld
+Case 182: 22
+ddruldrruldluurrdlldrr
+Case 183: 15
+lddrrululddruru
+Case 184: 21
+lurdruulddluurdrdllur
+Case 185: 17
+luulddruurddluldr
+Case 186: 17
+druldlurddlurrdlu
+Case 187: 20
+rddrulldrurdlulurrdd
+Case 188: 21
+llurrdllurddluurrdlld
+Case 189: 23
+ldruuldrdlluurddruldluu
+Case 190: 27
+ddlurrdluulddruurdldrullurr
+Case 191: 21
+uurrddllururddluldrur
+Case 192: 24
+druruldldrruuldldrurdllu
+Case 193: 21
+ddruurddluurddllurdlu
+Case 194: 23
+urrdllurdldrrulldruuldd
+Case 195: 21
+lldrruldlururddllurdl
+Case 196: 21
+urdldluurrdldlurdrull
+Case 197: 26
+lurdrullurrddluldrurdlluru
+Case 198: 22
+dlurddluruldlurdrdlluu
+Case 199: 23
+ulurddlulurrddlulurrdll
+Case 200: 18
+ldrruulldrrulddrul
