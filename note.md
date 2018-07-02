@@ -176,3 +176,17 @@ wa到不能自理T^T
 > 2018 - 7 - 2
 
 参考题解。https://blog.csdn.net/qq_31759205/article/details/52628889
+
+# HDu4848 Wow! Such Conquering!
+
+> 2018 - 7 - 2
+
+dfs + 剪枝。
+
++ 当前 sum > res，直接剪枝
+
++ 当前 d > t[p]，不满足，直接剪枝
+
++ 下一个到达星球 i, d + G\[p][i] > t[p], 不满足，直接剪枝
+
++ 估值剪枝：sum + (n - cnt) * (d + G\[p][i]) > res, 后面所有的距离至少为 d + G\[p][i]
