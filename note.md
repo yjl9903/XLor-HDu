@@ -177,6 +177,16 @@ wa到不能自理T^T
 
 参考题解。https://blog.csdn.net/qq_31759205/article/details/52628889
 
+设起点 (ex, ey), gcd(ex, ey) = n, ex = n * x, ey = n * y, gcd(x, y) = 1, so lcm(ex, ey) = n * x * y
+
+(ex, ey) == (nx, ny) -> (nx, ny + nxy) = (nx, ny(1 + x))
+
+gcd(nx, ny(1 + x)) = n * gcd(x, y(1 + x)) = n
+
+因此 gcd(ex,ey) == ... == gcd(sx, sy)
+
+不妨令 ex < ey, 那么前一个点坐标为 (ex, ey / (1 + ex / n))
+
 # HDu4848 Wow! Such Conquering!
 
 > 2018 - 7 - 2
