@@ -146,3 +146,33 @@ KMP匹配完成时，j回退到nxt[j]即可。
 如果 gcd(m / n, n) == 1，那么 n 需要乘的因子与n会互质，则失败。
 
 每次 n 去乘 gcd(m / n, n) 直到等于m，乘的次数即为答案（因为存在 m > n * n）
+
+# HDu5578 Friendship of Frog
+
+> 2018 - 7 - 2
+
+打个下标搞一搞。
+
+# HDu5590 An Easy Physics Problem 
+
+> 2018 - 7 - 2
+
+wa到不能自理T^T
+
+思路：先判断交点个数，找到碰撞点的参数hint，先判断三点共线的情况：
+
+先找到b点的参数t，t为正，t小于交点参数。
+
+然后，B点关于切线做对称。
+
+# HDu5583 Kingdom of Black and White
+
+> 2018 - 7 - 2
+
+离散化后搞一搞。
+
+# HDu5584 LCM Walk
+
+> 2018 - 7 - 2
+
+参考题解。https://blog.csdn.net/qq_31759205/article/details/52628889
