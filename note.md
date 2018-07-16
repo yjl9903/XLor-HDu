@@ -326,3 +326,9 @@ CDQ分治。
 > 2018 - 7 - 16
 
 母函数。
+
+# HDu1085 Holding Bin-Laden Captive! 
+
+> 2018 - 7 - 16
+
+母函数。
