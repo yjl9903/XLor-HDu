@@ -49,7 +49,6 @@ void modify(int l, int r, int rt){
     if (l == r){
         a[rt] = b[l];
         update(l);
-        // printf("%d %d\n", l, query(l));
         return;
     }
     int m = (l + r) >> 1;
@@ -61,9 +60,7 @@ void modify(int l, int r, int rt){
 void update(int L, int R, int l, int r, int rt){
     if (L <= l && r <= R){
         a[rt]--; add[rt]--;
-
         if (a[rt] == 0){
-            // printf("%d %d\n", l, r);
             modify(l, r, rt);
         }
         return;
@@ -96,7 +93,6 @@ int main(){
                 update(x, y, 1, n, 1);
             }
             else if (cmd[0] == 'q'){
-                // query(x, y, 1, n, 1);
                 printf("%d\n", query(y) - query(x - 1));
             }
         }
