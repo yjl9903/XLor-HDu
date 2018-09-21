@@ -12,9 +12,11 @@ int to[maxn * 2], nxt[maxn * 2], flow[maxn * 2], head[maxn], tot;
 void add(int x, int y, int w){
     to[++tot] = y; nxt[tot] = head[x]; flow[tot] = w;
     head[x] = tot;
+    to[++tot] = x; nxt[tot] = head[y]; flow[tot] = 0;
+    head[y] = tot;
 }
 
-int n, m, s, t;
+int n, m, tag;
 
 int dep[maxn];
 int bfs(int s, int t){
@@ -34,7 +36,7 @@ int bfs(int s, int t){
     return dep[t];
 }
 int dfs(int u, int fl){
-    if (u == t) return fl;
+    if (u == tag) return fl;
     int f = 0;
     for (int i = head[u]; i && fl; i = nxt[i]){
         int v = to[i];
@@ -48,7 +50,7 @@ int dfs(int u, int fl){
     return f;
 }
 int dinic(int s, int t){
-    int ans = 0;
+    int ans = 0; tag = t;
     while (bfs(s, t)){
         ans += dfs(s, inf);
     }
@@ -62,9 +64,8 @@ int main(){
         scanf("%d%d", &n, &m);
         while (m--){
             int x, y, c; scanf("%d%d%d", &x, &y, &c);
-            add(x, y, c); add(y, x, 0);
+            add(x, y, c);
         }
-        s = 1; t = n;
         printf("Case %d: %d\n", ++kase, dinic(1, n));
     }
     return 0;
