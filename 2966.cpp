@@ -14,8 +14,7 @@ int cmpd;
 namespace kdt{
     int rt;
     struct node{
-        int d[2], mx[2], mn[2], l, r; 
-        int id;
+        int d[2], mx[2], mn[2], l, r, id;
         bool operator<(const node& b)const{
             if (d[cmpd] == b.d[cmpd]) return d[cmpd ^ 1] < b.d[cmpd ^ 1];
             return d[cmpd] < b.d[cmpd];
@@ -49,8 +48,7 @@ namespace kdt{
 
     inline ll sqr(ll x){return x * x;} 
     inline ll distance(const node& a, ll x, ll y){
-        x -= a.d[0]; y -= a.d[1];
-        return x * x + y * y;
+        x -= a.d[0]; y -= a.d[1]; return x * x + y * y;
     }
     inline ll cal(const node& a, ll x, ll y){
         ll ans = 0;
@@ -63,20 +61,24 @@ namespace kdt{
 
     ll ans, x, y;
     inline void query(int p){
-        node& u = tree[p];
-        ll d0 = distance(u, x, y), dl = inf, dr = inf;
-        if (x == u.d[0] && y == u.d[1]) d0 = inf; //
+        node& t = tree[p];
+        ll d0 = distance(t, x, y), dl = inf, dr = inf;
+        if (x == t.d[0] && y == t.d[1]) d0 = inf; //
         ans = min(ans, d0);
-        if (u.l) dl = cal(tree[u.l], x, y);
-        if (u.r) dr = cal(tree[u.r], x, y);
+        if (t.l) dl = cal(tree[t.l], x, y);
+        if (t.r) dr = cal(tree[t.r], x, y);
         if (dl < dr){
-            if (dl < ans) query(u.l);
-            if (dr < ans) query(u.r);
+            if (dl < ans) query(t.l);
+            if (dr < ans) query(t.r);
         }
         else {
-            if (dr < ans) query(u.r);
-            if (dl < ans) query(u.l);
+            if (dr < ans) query(t.r);
+            if (dl < ans) query(t.l);
         }
+    }
+    inline ll query(ll a, ll b){
+        ans = inf; x = a; y = b;
+        query(rt); return ans;
     }
 }
 using namespace kdt;
@@ -93,8 +95,7 @@ int main(){
         }
         rt = build(1, n, 0);
         for (int i = 1; i <= n; i++){
-            ans = inf; x = tree[i].d[0]; y = tree[i].d[1];
-            query(rt); res[tree[i].id] = ans;
+            res[tree[i].id] = query(tree[i].d[0], tree[i].d[1]);
         }
         for (int i = 1; i <= n; i++) printf("%lld\n", res[i]);
     }
