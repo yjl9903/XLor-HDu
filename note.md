@@ -600,3 +600,11 @@ query时当前点价值大于 c，将 d0 设置为 inf。
 简单Hash。
 
 不要看错大小写T^T。
+
+# HDu4080 Stammering Aliens
+
+> 2018 - 10 - 18
+
+字符串Hash。
+
+二分长度，map 存是否有出现超过 m 次，记录即可。
