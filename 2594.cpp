@@ -27,15 +27,15 @@ void getnxt(char *s){
 // t = text, s = template
 // len(extend[]) = len(t), len(nxt[]) = len(s)
 void exkmp(char *t, char *s){ 
-    getnxt(s); int n = strlen(t), m = strlen(s), p = 0, k = 0;
-    while (p < n && p < m && t[p] == s[p]) p++;
+    getnxt(s); int tlen = strlen(t), slen = strlen(s), p = 0, k = 0;
+    while (p < tlen && p < slen && t[p] == s[p]) p++;
     extend[0] = p;
-    for (int i = 1; i < n; i++){
+    for (int i = 1; i < tlen; i++){
         p = k + extend[k] - 1;
         if (i + nxt[i - k] <= p) extend[i] = nxt[i - k];
         else {
             int j = max(p - i + 1, 0);
-            while (i + j < n && j < m && t[i + j] == s[j]) j++;
+            while (i + j < tlen && j < slen && t[i + j] == s[j]) j++;
             extend[i] = j; k = i;
         }
     }
