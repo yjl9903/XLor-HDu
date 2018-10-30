@@ -615,8 +615,14 @@ query时当前点价值大于 c，将 d0 设置为 inf。
 
 manacher.
 
-# HDu2594 
+# HDu2594 Simpsons’ Hidden Talents 
 
 > 2018 - 10 - 23
 
 扩展KMP算法。
+
+# HDu3518 Boring counting
+
+> 2018 - 10 - 30
+
+后缀数组，没过，好像做了假题？
