@@ -732,3 +732,9 @@ KMP 判断周期串。
 > 2019 - 6 - 14
 
 后缀自动机。
+
+# HDu2459 Maximum repetition substring 
+
+> 2019 - 6 - 16
+
+后缀数组 + RMQ。
