@@ -738,3 +738,9 @@ KMP 判断周期串。
 > 2019 - 6 - 16
 
 后缀数组 + RMQ。
+
+# HDu1848 Fibonacci again and again
+
+> 2019 - 6 - 16
+
+SG函数。
