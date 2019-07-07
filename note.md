@@ -756,3 +756,9 @@ SG函数。
 > 2019 - 7 - 7
 
 FWT 优化 Tree dp。
+
+# HDu3507 Print Article
+
+> 2019 - 7 - 7
+
+斜率优化。
