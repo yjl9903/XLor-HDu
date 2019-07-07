@@ -750,3 +750,9 @@ SG函数。
 > 2019 - 6 - 16
 
 有向图，SG函数。
+
+# HDu5909 Tree Cutting
+
+> 2019 - 7 - 7
+
+FWT 优化 Tree dp。
