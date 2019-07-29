@@ -774,3 +774,9 @@ FWT 优化 Tree dp。
 > 2019 - 7 - 28
 
 SAM。
+
+# HDu4696 Important Sisters
+
+> 2019 - 7 - 29
+
+支配树模板
