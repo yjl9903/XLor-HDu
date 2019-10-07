@@ -786,3 +786,9 @@ SAM。
 > 2019 - 9 - 17
 
 min-max 容斥模板。
+
+# HDu6268 Master of Subgraph
+
+> 2019 - 10 - 7
+
+点分治 + 树形依赖背包括号序列优化 + bitset。
